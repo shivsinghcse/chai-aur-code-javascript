@@ -40,8 +40,31 @@ const myFunction  = function(){
     console.log("Hello World!");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp); // object
-console.log(typeof myFunction); // function - we called function object
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp); // object
+// console.log(typeof myFunction); // function - we called function object
 
 // Javascript is a dynamically typed language.
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive), heap(non-primitive)
+
+let myYoutubeName = "JustCoder";
+let anotherName = myYoutubeName;
+anotherName = "JustCodeIt";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+const user = {
+    email: 'user@google.com',
+    upi : 'user@ybl'
+}
+
+const userOne = user;
+
+userOne.email = 'userone@gmail.com'
+
+console.log(user);
+console.log(userOne);
