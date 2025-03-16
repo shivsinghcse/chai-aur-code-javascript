@@ -11,7 +11,39 @@
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+## DOM 
+- DOM stands for Document object model.
+- `console.dir(document)` learn about it.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Larning</title>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 class="heading">DOM learning on chai aur code</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium excepturi quae alias maxime, nobis ea voluptatum numquam ipsa ut reprehenderit error sit perferendis iusto pariatur omnis impedit incidunt vel dolorum.</p>
+    </div>
+</body>
+</html>
+```
+- window
+    - document
+        - HTML
+            - HEAD
+                - meta
+                    - attribute
+                - title
+                    - text node
+        - BODY
+                - div ---> attribute
+                    - h1 ---> attribute
+                        - textnode
+                    - p
+                        - textnode
+- .innerHTML 
 ## Async Javascript Fundamentals
 - Javascript
         - Synchronous
