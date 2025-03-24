@@ -69,3 +69,17 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min);
     - Non Blocking code
         - Do not block execution
         - Read File Async    
+
+
+
+
+
+## Execution Context:
+- Javascript Execution Context
+- First of all It always creats Global EC, and it refers to `this` or (First of all It always creats Global EC and attached to global object or `this`)
+- Code Execution happens in two phases   
+    - Memory creation phase
+    - Execution phase
+- Function / Function Execution context
+- Eval Execution Context       
+- call stack follow Lifo 
