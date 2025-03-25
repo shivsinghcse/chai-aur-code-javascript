@@ -51,6 +51,9 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min);
                         - textnode
 - .innerHTML 
 - HTMLCollection is not an array, but we can convert
+- `document.getElementsByClassName()` returns an HTMLCollection and you can not directly modify it, it does not have forEach()
+- `document.querySelectorAll()` returns a Node list and you can not directly modify it and it array like but not an array, it has forEach()
+- Converting HTMLCollection to Array   `Array.from(tempClassList)`
 ## Async Javascript Fundamentals
 - Javascript
         - Synchronous
