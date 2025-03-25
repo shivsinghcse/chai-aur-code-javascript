@@ -43,13 +43,14 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min);
                     - attribute
                 - title
                     - text node
-        - BODY
+            - BODY
                 - div ---> attribute
                     - h1 ---> attribute
                         - textnode
                     - p
                         - textnode
 - .innerHTML 
+- HTMLCollection is not an array, but we can convert
 ## Async Javascript Fundamentals
 - Javascript
         - Synchronous
